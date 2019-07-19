@@ -46,3 +46,4 @@ git checkout其实是用版本库里的版本替换工作区的版本，无论�
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
+注意--no-ff参数，表示禁用Fast forward：git merge --no-ff -m "merge with no-ff" dev。
